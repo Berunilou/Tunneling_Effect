@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tunneling_Effect_2.0", "Tunneling_Effect_2.0\Tunneling_Effect_2.0.csproj", "{10513C38-4CEE-49C8-84D4-936B32803107}"
+	ProjectSection(ProjectDependencies) = postProject
+		{58D22357-2F8E-45DF-8BEB-CA32BCBE5E1E} = {58D22357-2F8E-45DF-8BEB-CA32BCBE5E1E}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComplexOperations", "..\ComplexOnConsole\ComplexOperations\ComplexOperations.csproj", "{58D22357-2F8E-45DF-8BEB-CA32BCBE5E1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10513C38-4CEE-49C8-84D4-936B32803107}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10513C38-4CEE-49C8-84D4-936B32803107}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10513C38-4CEE-49C8-84D4-936B32803107}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10513C38-4CEE-49C8-84D4-936B32803107}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58D22357-2F8E-45DF-8BEB-CA32BCBE5E1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58D22357-2F8E-45DF-8BEB-CA32BCBE5E1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58D22357-2F8E-45DF-8BEB-CA32BCBE5E1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58D22357-2F8E-45DF-8BEB-CA32BCBE5E1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C478442A-C3A8-4E2F-9475-7936A2A542DF}
+	EndGlobalSection
+EndGlobal
